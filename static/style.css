@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
+
+* {
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+
+/*** GLOBAL VARIABLES ***/
+.cursive-title {
+    font-family: "Oregano", sans-serif;
+    text-decoration: #008080 solid overline;
+    text-decoration-thickness: 10px;
+    font-size: 50px;
+    letter-spacing: 0.235em;
+}
+
+.button-redirect a {
+    color: #ffffff;
+    font-family: "Noto Sans SC", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 0.235em;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    padding: 20px;
+    border: 2px solid #008080;
+    box-sizing: border-box;
+}
+
+
+/*** HEADER ***/
+header {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+header * {
+    background-color: #121212;
+}
+
+header li, header a {
+    color: #ffffff;
+    font-family: "Noto Sans SC", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+header .nav-logo {
+    background-color: #fff;
+    cursor: pointer;
+    width: 100px;
+}
+
+header .nav-links {
+    list-style: none;
+}
+
+header .nav-links li {
+    display: inline-block;
+    padding: 0px 60px;
+}
+
+header a:hover {
+    color: #008080;
+}
+
+header a:focus {
+    text-decoration: underline;
+}
+
+
+/*** HOME ***/
+#home-wrapper * {
+    background-color: #121212;
+    color: #fff;
+}
+
+#home-wrapper .main-title {
+    font-family: "NSimSun", sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    letter-spacing: 0.12em;
+    padding: 25vh 15vh;
+    padding-bottom: 0px;
+}
+
+#home-wrapper .contact-button {
+    padding: 5vh 15vh;
+    padding-bottom: 294px;
+}
+
+#home-wrapper .contact-button a:hover {
+    background-color: #008080;
+    color: #121212;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px 1px #008080;
+}
+
+#about-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px 10%;
+}
+
+#about-wrapper .text {
+    max-width: 620px;
+}
+
+#about-wrapper .text p {
+    padding: 25px 0px;
+    font-size: 25px;
+    letter-spacing: 0.05em;
+    font-family: "Oregano", sans-serif;
+}
+
+#about-wrapper .nav-portrait {
+    width: 60vh;
+}
+
+
+/*** PROJECTS ***/
+#projects-wrapper {
+    background-color: #121212;
+}
+
+#projects-wrapper * {
+    background-color: #121212;
+    color: #fff;
+}
+
+#projects-wrapper .projects-title-wrapper {
+    padding-top: 10vh;
+    padding-left: 15vh;
+    max-width: 105vh;
+}
+
+#projects-wrapper .projects-title {
+    font-family: "Noto Sans SC", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 0.235em;
+}
+
+#projects-wrapper .projects-title-wrapper hr {
+    width: 43vh;
+    margin: 40px 0px;
+    float: right;
+}
+
+#projects-wrapper .projects-cards-wrapper {
+    padding: 10vh 0px;
+    text-align: center;
+}
+
+#projects-wrapper .projects-nav-cards {
+    list-style: none;
+}
+
+#projects-wrapper .projects-card {
+    display: inline-block;
+    padding: 0px 5%;
+}
+
+#projects-wrapper .projects-card-content-wrapper {
+    list-style: none;
+    font-family: "Oregano", sans-serif;
+}
+
+#projects-wrapper .projects-card-content-wrapper li {
+    text-align: left;
+}
+
+#projects-wrapper .projects-card-content-title {
+    font-size: 25px;
+    letter-spacing: 0.235em;
+}
+
+#projects-wrapper .projects-card-content-genre {
+    color: #008080;
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 0.235em;
+}
+
+#projects-wrapper .projects-card-content-wrapper li img {
+    width: 35vh;
+}
+
+#projects-wrapper .more-projects-button {
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+#projects-wrapper .more-projects-button a:hover {
+    background-color: #008080;
+    color: #121212;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px 1px #008080;
+}
+
+
+/*** CONTACT ***/
+#contact-wrapper {
+    background-color: #fff;
+}
+
+#contact-wrapper * {
+    background-color: #fff;
+    color: #121212;
+}
+
+#contact-wrapper .contact-title-wrapper {
+    text-align: center;
+    padding-top: 15vh;
+}
+
+#contact-wrapper .contact-description-wrapper {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10vh;
+}
+
+#contact-wrapper .contact-description {
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 0.235em;
+}
+
+#contact-wrapper .contact-cards-wrapper {
+    padding-bottom: 15vh;
+    text-align: center;
+}
+
+
+#contact-wrapper .contact-nav-cards {
+    list-style: none;
+}
+
+#contact-wrapper .contact-card {
+    display: inline-block;
+    padding: 0px 5%;
+}
+
+#contact-wrapper .contact-card-content-wrapper img {
+    width: 35vh;
+}
+
+#contact-wrapper .contact-card-content-wrapper {
+    list-style: none;
+    font-family: "Oregano", sans-serif;
+}
+
+#contact-wrapper .contact-card-content-wrapper li {
+    text-align: left;
+}
+
+#contact-wrapper .contact-card-content-title {
+    font-size: 25px;
+    letter-spacing: 0.235em;
+}
+
+#contact-wrapper .contact-card-content-genre {
+    color: #008080;
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 0.235em;
+}
+
+
+/*** FOOTER ***/
+footer {
+    background-color: #121212;
+}
+
+footer * {
+    background-color: #121212;
+    color: #fff;
+}
+
+footer .footer-title-wrapper {
+    text-align: center;
+    padding-top: 15vh;
+}
+
+footer .footer-title {
+    font-family: "Noto Sans SC", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 0.235em;
+}
+
+footer .footer-title-wrapper hr {
+    margin-top: 1vh;
+    margin-left: 51%;
+    width: 30vh;
+}
+
+footer .footer-nav-wrapper {
+    padding: 10vh 0px;
+}
+
+footer .footer-nav-links {
+    list-style: none;
+    text-align: center;
+}
+
+footer .footer-nav-links li {
+    display: inline-block;
+    padding: 0px 8%;
+}
+
+footer .footer-nav-links li a {
+    color: #ffffff;
+    font-family: "Noto Sans SC", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+footer .footer-nav-links li a:hover {
+    color: #008080;
+}
+
+footer .footer-nav-links li a:focus {
+    text-decoration: underline;
+}
+
+footer .footer-copyright-wrapper {
+    text-align: center;
+}
+
+footer .footer-copyright-wrapper span {
+    color: #888;
+    font-family: "Noto Sans SC", sans-serif;
+    font-weight: 100;
+    font-size: 9px;
+    letter-spacing: 0.235em;
+}
+
+footer .footer-social-media-wrapper {
+    padding: 5vh 0px;
+}
+
+footer .footer-social-media-nav-links {
+    list-style: none;
+    text-align: center;
+}
+
+footer .footer-social-media-nav-links li {
+    display: inline-block;
+    padding: 0px 5px;
+}
